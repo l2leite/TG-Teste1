@@ -7,6 +7,12 @@ using SubstanciaNS;
 using ClienteNS;
 using MySqlClienteNS;
 
+
+
+
+
+
+
 /*
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -23,7 +29,7 @@ Console.WriteLine(dataNow.Data);
 Console.WriteLine(dataNow.ToString());
 Console.WriteLine(dataNow.Data.Day);
 */
-Cliente cliente = new Cliente();
+/*Cliente cliente = new Cliente();
 cliente.cliente.CPF = 31498924816;
 cliente.cliente.Nome = "Dranoel";
 cliente.cliente.Nacionalidade = "Brasileiro";
@@ -88,7 +94,7 @@ Console.WriteLine(clientes);
 MySqlCliente cli = new MySqlCliente(clientes);
 Console.WriteLine(cli.Adicionar(clientes));
 Console.WriteLine(cli.Alterar(31498924839, cliente));
-Console.WriteLine(cli.Excluir(31498924838));
+Console.WriteLine(cli.Excluir(31498924838));*/
 
 
 
